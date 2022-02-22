@@ -11,5 +11,6 @@ class Counter:
     def reset(self):
         self.__current = 0
 
+
 counter = Counter()
 print(counter._Counter__current)

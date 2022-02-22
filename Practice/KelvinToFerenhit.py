@@ -1,6 +1,6 @@
-def k2f(Tempreture):
-    assert (Tempreture>=0),"Colder than absolute zero!"
-    return ((Tempreture-273)*1.8)+32
+def k2f(temperature):
+    assert (temperature >= 0), "Colder than absolute zero!"
+    return ((temperature-273)*1.8)+32
 
 
 print(k2f(273))
