@@ -21,8 +21,10 @@ try:
     cursor.execute(sql_select_query)
     record = cursor.fetchone()
     print(record)
+
 except mysql.connector.Error as error:
     print("Failed to update table record: {}".format(error))
+
 finally:
     if(connection.is_connected()):
         connection.close()
